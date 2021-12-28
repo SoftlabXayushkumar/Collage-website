@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajokari institute of Technology</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <style>
+    *{
+        font-family: sans-serif;
+    }
+    h1{
+        text-align: center;
+    }
+    img{
+        display: block;
+        width: 800px;
+        height: 300px;
+        margin: 0  auto;
+        transition: 0.1s;
+
+    }
+</style> -->
+</head>
+<body>
+  
+    <section class="header">
+<nav>
+   
+    <a href="logo.html"> <img src="./logo21.jpeg" > </a>
+    <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="./index.html">HOME</a> </li>
+            <li><a href="./about.html">ABOUT</a> </li>
+            <li><a href="./course.html">COURSE</a> 
+            </li>
+            <li><a href="./blog.html">BLOG</a> </li>
+            <li><a href="./gallery.html">GALLERY</a> </li>
+            <li><a href="./staff.html">STAFF</a> </li>
+            <li><a href="./download.html">DOWNLOAD</a> </li>
+          
+            <li></a><a href="./contant.html">CONTACT</a> </li>
+            <!-- <li></a><a href="">HOME</a> </li> -->
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<div class="text-box">
+    <p> GOVT. OF NCT OF DELHI</p>
+
+    <h1>RAJOKARI INSTITUTE OF TECHNOLOGY</h1>
+    <br>
+    <p>DIRECTORATE OF TRAINING & TECHNICAL EDUCATION.</p>
+   <br><br>
+   
+    <a href="http://ritdelhi.ac.in/" class="hero-btn">Visit Us to More</a>
+</div>
+
+    </section>
+<!-- -------------principle------------- -->
+<section class="pen">
+    
+<div class="sub-pen">
+    
+    <h1> From The Principal's Pen</h1>
+    <img src="pen.jpeg" alt="">
+    <p>Technical Education aims to provide the right environment to grow beyond academics, to master theory and provide platform for practical aspects that will help the
+         students to move towards concrete goals. As a principal,
+         I wish to provide every student the right platform of opportunities that fosters academics and co-curricular learning.
+          It is an honor to introduce Rajokari Institute of Technology as first fully air-conditioned technical
+          institute under the Department of Training and Technical Education, Govt. of NCT of Delhi. I welcome all the students in the sphere of this institute
+         with deep sense of pride and gratitude. The first academic session of this institute commenced w.e.f. August 2016 with two branches namely, Computer Engineering(CE) 
+         and IT Enabled Services and Management (ITESM)
+          with an intake of 60 in each branch. In the coming years, Rajokari Institute of Technology will be known as first Hi-Tech Institute with World-Class facilities.
+           I ensure that I along with my staff members will
+           put our best efforts to ensure that the students are adequately placed in Top MNCs. <br> <br><br>
+
+        With Best Wishes,
+        <br>
+        
+        Porusu Ramanaiah
+        <br>
+        PRINCIPAL</p>
+</div>
+</section>
+
+
+    <!-- ---------photo -->
+    <section class="photo">
+      <div class="photo-sub"> <h1>Gallery</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <img src="" id="image" >
+        </div>
+        <script type="text/javascript">
+        let image=document.getElementById('image');
+        let images=['2.jpg','3.jpg','4.jpg']
+        setInterval(function(){
+            let random=Math.floor(Math.random()*3);
+            image.src=images[random];
+        }, 750);
+        </script>
+    </section>
+<!-- -----------course-------- -->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="course-col">
+          <h3>ITES&M</h3>
+          <a href="syllabus.html"><h3>syllabus</h3></a>
+       <a href="course-details.html">     <p>Diploma in Information Technology Enabled Services And Management(ITES&M) has been defined 
+                and designed to meet the growing need of KPO, BPO and other organizations providing IT Enabled Services.......more</p></a>
+        </div>
+        <div class="course-col">
+          <h3>CS</h3>
+          <a href="syllabus.html"><h3>syllabus</h3></a>
+            <a href="course-details.html"><p>Computer Engineering(CE) is one of the popular courses among engineering aspirants which focuses on the basic elements of computer
+                programming and networking........more</p></a>
+        </div>
+        <!-- <div class="course-col">
+            <h3>Diploma</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla ea ab doloremque optio quis
+                 deleniti deserunt esse accusantium quae, voluptatem repellendus,
+                  perspiciatis nisi incidunt explicabo odio, aliquid sint. Beatae.</p>
+        </div> -->
+    </div>
+</section>
+<!-- ----------------campus------------- -->
+
+<section class="campus">
+    <h1>Our Campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="./classroom.jpg">
+            <div class="layer">
+                <h3>Classroom</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+                     vero obcaecati! Voluptatem officia sapiente animi. Minus quis suscipit repellendus voluptas, 
+                    optio asperiores iste incidunt nulla obcaecati ea, cumque modi pariatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+                     vero obcaecati! Voluptatem officia sapiente animi. Minus quis suscipit repellendus voluptas, 
+                    optio asperiores iste incidunt nulla obcaecati ea, cumque modi pariatur.</p>
+        </div>
+        <div class="campus-col">
+            <img src="./lab.jpeg">
+            <div class="layer">
+                <h3>Lab</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+                vero obcaecati! Voluptatem officia sapiente animi. Minus quis suscipit repellendus voluptas, 
+               optio asperiores iste incidunt nulla obcaecati ea, cumque modi pariatur.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+                vero obcaecati! Voluptatem officia sapiente animi. Minus quis suscipit repellendus voluptas, 
+               optio asperiores iste incidunt nulla obcaecati ea, cumque modi pariatur.</p>
+        </div>
+        <div class="campus-col">
+            <img src="./campus.jpeg">
+            <div class="layer">
+                <h3>campus</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+                vero obcaecati! Voluptatem officia sapiente animi. Minus quis suscipit repellendus voluptas, 
+               optio asperiores iste incidunt nulla obcaecati ea, cumque modi pariatur.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+                vero obcaecati! Voluptatem officia sapiente animi. Minus quis suscipit repellendus voluptas, 
+               optio asperiores iste incidunt nulla obcaecati ea, cumque modi pariatur.</p>
+        </div>
+    </div>
+</section>
+<!-- ---------------Facilities------------ -->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="./liabrary.jpeg" >
+            <h3>Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Maiores ab sit voluptatibus tempora</p>
+        </div>
+        <div class="facilities-col">
+            <img src="./playground.jpeg" >
+            <h3>Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Maiores ab sit voluptatibus tempora</p>
+        </div>
+        <div class="facilities-col">
+            <img src="./parking.jpeg" >
+            <h3>Parking</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Maiores ab sit voluptatibus tempora</p>
+        </div>
+        
+    </div>
+   
+</section>
+<!-- ----------------testimonials---------- -->
+<section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<div class="row">
+<div class="testimonials-col">
+    <img src="./Photo1.jpg" >
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Minima, minus pariatur, animi eligendi odio doloribus, atque ex facere ea cupiditate nesciunt sequi eaque.
+             Molestias, sed modi? Quaerat delectus tempora optio!</p>
+             <h3>Ayush Kumar</h3>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star-half-o"></i>
+    </div>
+</div>
+<div class="testimonials-col">
+    <img src="./chandan.jpeg" >
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Minima, minus pariatur, animi eligendi odio doloribus, atque ex facere ea cupiditate nesciunt sequi eaque.
+             Molestias, sed modi? Quaerat delectus tempora optio!</p>
+             <h3>Chandan Mallik</h3>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star-o"></i>
+    </div>
+</div>
+</div>
+</section>
+<!-- -----------------------Call to Action----------------- -->
+<section class="cta">
+    <h1>Enroll for our various online courses <br> Anywhere form The World</h1>
+    <a href="./contant.html" class="hero-btn"> CONTANT US</a>
+</section><hr>
+
+<!-- ------------------footer------------- -->
+<section class="footer">
+    
+    <h3>About Us</h3>
+    <script>(function(w, d) { w.CollectId = "618d184b11c7462f21dec568"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+    <!-- <a href="chatsbot.html"> <img src="chatbot.png" ></a> -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Sed rem molestias illo  , ut tempore
+         voluptas,<br> cum eaque doloremque repudiandae excepturi accusantium.</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-youtube-play"></i>
+  
+</div>
+
+<p class="copyright"> <i class="fa fa-heart"></i> Design by dvlpr @@yUSh </p>
+</section>
+
+
+
+
+<!-- -----------------javaScript--------- for togel menu----- -->
+<script>
+var navlinks=document.getElementById("navlinks");
+function showmenu(){
+    navlinks.style.right="0";
+}
+function hidemenu(){
+    navlinks.style.right="-200px";
+}
+</script>
+</body>
+</html>

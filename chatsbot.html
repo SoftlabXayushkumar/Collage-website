@@ -1,0 +1,105 @@
+<!-- <html>
+<head>
+<style>
+    .chatbot{
+        background-color: coral;
+       width: 500px;
+       height: 350px;
+       margin-left: 30%;
+       margin-top: 9%;
+    }
+</style>
+<script>
+know = {
+
+"Hello" : "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Hi there!",
+"hello" : "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Hi there!",
+"HELLO" : "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Hi there!",
+"Who are you?" : "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp I am Nikhil's Assistant",
+"How are you?" : "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp I am Fine",
+"How old are you?" : "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp I am infinity in age"
+
+
+
+
+};
+
+function talk() {
+var user = document.getElementById("userBox").value;
+document.getElementById("userBox").value= "";
+document.getElementById("chatLog").innerHTML += user+"<br>";
+
+if (user in know) {
+document.getElementById("chatLog").innerHTML += know[user] + "<br>";
+} else 
+
+{
+document.getElementById("chatLog").innerHTML += "I don't understand... <br>";
+}
+}
+
+
+
+
+
+</script>
+
+
+
+</head>
+
+
+<body>
+<div class="chatbot">
+
+<p id="chatLog"> - - i am aska- - <br> </p>
+
+<input id="userBox" type="text" onkeydown="if(event.keyCode == 13) {talk()}">
+
+</div>
+</body>
+
+
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style2.css">
+
+    <title>Chatbot - Brave Coder</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">Simple Chatbot</div>
+        <div class="box">
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="msg">
+                    <p>Hello everyone, How are you?</p>
+                </div>
+            </div>
+            <br clear="both">
+            <div class="item right">
+                <div class="msg">
+                    <p>Nice</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="typing-area">
+            <div class="input-field">
+                <input type="text" placeholder="Type your message" required>
+                <button>Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
